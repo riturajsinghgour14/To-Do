@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       "/api":{
-        target: "http://localhost:3000",
+        target: "https://to-do-7682.onrender.com",
         changeOrigin: true,
         secure: false,
       }
